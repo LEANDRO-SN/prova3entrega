@@ -1,0 +1,120 @@
+
+/* ======== TEMA DE BASQUETE ======== */
+:root {
+    --preto: #0d0d0d;
+    --laranja: #f15a24;
+    --cinza: #2b2b2b;
+    --branco: #ffffff;
+}
+
+/* ======== ESTILO GERAL ======== */
+body {
+    background: var(--preto);
+    color: var(--branco);
+    font-family: "Montserrat", sans-serif;
+}
+
+div {
+    margin: 12px 0;
+}
+
+label {
+    min-width: 160px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* ======== INPUTS ======== */
+input[type="text"] {
+    padding: 8px 12px;
+    border: 2px solid var(--laranja);
+    border-radius: 8px;
+    background: var(--cinza);
+    color: var(--branco);
+    outline: none;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    border-color: #ff7b47;
+    background: #3c3c3c;
+}
+
+/* ======== BOTÕES PADRÃO ======== */
+button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--branco);
+    transition: 0.3s;
+    margin-right: 5px;
+}
+
+/* ======== BOTÕES COM TEMA ======== */
+.salvar {
+    background-color: #27ae60;
+}
+.salvar:hover {
+    background-color: #1e8f4e;
+}
+
+.atualizar {
+    background-color: #2980b9;
+}
+.atualizar:hover {
+    background-color: #1f6791;
+}
+
+.deletar {
+    background-color: #c0392b;
+}
+.deletar:hover {
+    background-color: #992d22;
+}
+
+.consultar {
+    background-color: #7f8c8d;
+}
+.consultar:hover {
+    background-color: #626e6f;
+}
+
+.limparCampos {
+    background-color: var(--laranja);
+}
+.limparCampos:hover {
+    background-color: #ff7b47;
+}
+
+/* ======== LISTA ======== */
+#lista-produtos {
+    background: var(--cinza);
+    padding: 15px;
+    border-radius: 10px;
+    list-style: none;
+}
+
+#lista-produtos li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+#lista-produtos li:last-child {
+    border-bottom: none;
+}
+
+#total-produtos {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+/* ======== TÍTULOS ======== */
+h1, h2 {
+    color: var(--laranja);
+    text-shadow: 0 0 10px #000;
+}

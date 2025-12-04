@@ -1,0 +1,5 @@
+com\produtoapi\service\ProdutoFAService.class
+com\produtoapi\model\ProdutoFA.class
+com\produtoapi\ProdutoApiApplication.class
+com\produtoapi\repository\ProdutoFARepository.class
+com\produtoapi\controller\ProdutoFAController.class
